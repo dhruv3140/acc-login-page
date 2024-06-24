@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccSoft 2.0</title>
+    <link rel="shortcut icon" href="https://portal.lnct.ac.in/Accsoft2/images/logo/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+
+<body>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box ;
+            
+
+        }
+        html, body{
+            height: 100%;
+            width: 100%;
+        }
+        .text {
+            font-size: 14px;
+            padding-left: 10px;
+            padding-top: 12%;
+            float: middle;
+
+        }
+
+        .logo {
+            margin-left: -50px;
+        }
+
+        .image
+        {
+            display: inline;
+            border: 1px solid black;
+        }
+
+        .login
+        {
+            margin-top: 10px;
+        }
+
+        #main
+        {
+            height: 100%;
+            width: 100%;
+            position: relative;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #D2D6DE;
+        }
+        
+        .box{
+            height: 80%;
+            width: 34%;
+            background-color: white;
+            position: relative;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 7px;
+        }
+
+        .radio
+        {
+            margin-left: 500px;
+        }
+
+        #parent
+        {
+            position:absolute;
+            left:-86%;
+            margin-top: 30px;
+        }
+        #loj
+        {
+            position: absolute;
+            right: 18%;
+            margin-top: 28.8px;
+        }
+
+        #box
+        {
+            position:absolute;
+            right: 5%;
+            margin-top: 30px;
+        }
+        
+        .op
+        {
+            position: absolute;
+            right: 80%;
+            bottom: 89%;
+        }
+
+        .pop
+        {
+            position: absolute;
+            top: 100%;
+        }
+
+        #box1
+        {
+             position:absolute;
+            right: 5%;
+            margin-top: 60px;
+        }
+
+        button 
+        {
+            display: inline;
+            color: beige;
+            background-color: #483348;
+            padding: 12px 50px;
+            border-radius: 7px;
+            margin-left: 245px;
+            margin-top: 110px;
+            
+        }
+
+        #sig 
+        {
+            text-decoration: none;
+            color: blue;
+            position: absolute;
+            right: 60%;
+            bottom: 11%;
+        }
+
+        p
+        {
+            display: inline;
+            color: blue;
+            font-family: sans-serif;
+            border: 1px solid black;
+            border: none;
+            padding-left: 500px;
+            text-align: center;
+            text-align: top ;
+            
+        }
+        a
+        {
+            text-decoration: none;
+            color: white;
+        }
+    
+        input {
+            margin-left: 50px;
+        }
+
+        #upline
+        {
+            height: 3px;
+            width: 100%;
+            background-color: #6278A4;
+            position: absolute;
+            bottom: 100%;
+            border-radius: 7px;
+        }
+
+        #cent
+        {
+            height: 1px;
+            width: 100%;
+            background-color: #ECECEC;
+            position: absolute;
+            top: 13%;
+
+        }
+
+
+    </style>
+   <div id="main">
+    <div class="box">
+    <div id="upline"></div>
+    <div id="cent"></div>
+         <h2 style="margin-left: -30px;" class = "login">AccSoft 2.0 Login</h2>
+    <img src="https://portal.lnct.ac.in/Accsoft2/images/Logo-login-window.png" class="op">     
+    <img src="https://portal.lnct.ac.in/Accsoft2/images/LNCT_Bhopal_Logo.png" width="233" height="102" class="logo">
+    <form>
+        <input id="parent"  type="radio" class="radio" checked>
+        <label id="loj"  style="margin-right: 100px;"> <strong>Parent / Student</strong> </label>
+
+        <br>
+        <br>
+
+        <input id="box"    type="text" class="radio" style="height: 45px; width:380px" placeholder="Login name">
+        
+
+        <br>
+        <br>
+
+        <input  id="box1"     type="password" class="radio" style="height: 45px; width:380px" placeholder="Password">
+
+        <br>
+        <br>
+        
+        <button><a
+            href="https://portal.lnct.ac.in/Accsoft2/studentLogin.aspx"
+        type="button">Login>></a>
+        </button>
+        
+    </form>
+
+    <p><a id="sig"
+    href="https://portal.lnct.ac.in/Accsoft2/studentLogin.aspx">SignUp (New User)</a></p>
+    <img src="https://portal.lnct.ac.in/Accsoft2/images/bottom-bg.png" width="100%" class="pop">
+</div>
+   </div> 
+   
+</body>
+
+</html>
